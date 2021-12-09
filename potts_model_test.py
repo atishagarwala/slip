@@ -33,8 +33,8 @@ class PottsModelTest(parameterized.TestCase):
     weight_matrix[0, 0, 1, 0] = 3.0 / 2
     weight_matrix[0, 1, 0, 0] = 2.5
     weight_matrix[1, 0, 0, 0] = 2.5
-    weight_matrix[0, 1, 18, 18] = -2.5
-    weight_matrix[1, 0, 18, 18] = -2.5
+    weight_matrix[0, 1, 19, 18] = -2.5
+    weight_matrix[1, 0, 18, 19] = -2.5
     weight_matrix[0, 2, 0, 0] = 4.0
     weight_matrix[2, 0, 0, 0] = 4.0
 
